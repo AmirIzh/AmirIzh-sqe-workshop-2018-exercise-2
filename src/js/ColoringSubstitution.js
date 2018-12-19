@@ -15,7 +15,7 @@ function coloringSubstituteProgram(jsonCode, args){
         if(args[i][0] === '[') arrayExtract(args[i].substring(1, args[i].length - 1));
     return colorProgram(subCode);
 }
-
+ 
 function getKeyArr(strArr){
     for(let key in argsInit)
         if(argsInit[key] === '[' + strArr + ']')
